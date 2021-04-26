@@ -6,7 +6,7 @@
 
 body {
     background-image: url(../assets/img/back.jpg);
-    background-size: cover;
+    background-size: 100%;
 }
 
 nav {
@@ -63,7 +63,8 @@ nav a:hover {
 
 section { /* flex sur le parent */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 30px;
 }
 
 section img {
@@ -75,12 +76,56 @@ section p {
     color: white;
 }
 
+h4 {
+    margin-top: 20px;
+    color: white;
+}
+
 /* ==========================================================================
     Reservation 
 ========================================================================== */
 .form-group {
     margin-bottom:24px;
 }
+
+#but1 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19); 
+}
+  
+#but1:hover {
+    background-color: #4e925a;
+    color: white;
+}
+
+#but2 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19); 
+}
+  
+#but2:hover {
+    background-color: #b43d3d;
+    color: white;
+}
+
 .form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
     cursor:not-allowed;
     background-color: transparent;
