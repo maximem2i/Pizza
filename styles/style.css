@@ -126,21 +126,25 @@ h4 {
     color: white;
 }
 
-.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
-    cursor:not-allowed;
-    background-color: transparent;
-}
-.form-control {
+#but3 {
+    border: none;
     color: white;
-    height:38px;
-    font-size:14px;
-    vertical-align:middle;
-    background-color:transparent;
-    border-radius:2px;
-    box-shadow:none !important;
-    transition:none !important;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(20, 19, 19); 
+}
+  
+#but3:hover {
+    background-color: #3b5a92;
+    color: white;
 }
 
-.form p {
-    margin: 10px 0 30px 0;
+label {
+    color: white;
 }
